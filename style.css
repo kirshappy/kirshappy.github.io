@@ -56,7 +56,7 @@ p{
 
 }
 #menuLangue{
-    /*display:inline;*/
+    display:inline;
     padding:0em;
     margin:0 1em 0em 1em;
     float:right;
