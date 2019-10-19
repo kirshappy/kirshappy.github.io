@@ -1,1 +1,366 @@
+circle{
+    border:solid red 5px;
+    margin:0;
+}
+.principal{
+    position:fixed;
+    z-index:-2;
+    width:100%;
+}
+/*Met l'image de profile sur la gauche et la description sur la droite*/
+.gauche{
+    float:left;
+    border:none;
+    border-radius:50%;
+    margin:25px 50px 25px 150px;
+    width:300px;
+    height:300px; /*Vérifier comment garder les proportions d'une image dans CSS sans utiliser %*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: grayscale(70%);
+}
+.gauche:hover{
+    opacity:1;
+}
 
+
+/*Permet d'aligner le texte des entêtes dans les sections du document html*/
+h2{
+    margin:1em;
+    text-align:left;
+}
+/*Permet d'aligner le texte des entêtes des articles*/
+h1{
+    margin:1em 1em 0em 1em;
+    text-align:center;
+    padding-bottom:0.5em;
+}
+
+p{
+    line-height:1.5em;
+}
+
+#menu li:hover{
+    font-weight:bold;
+}
+
+#menu li{
+    display:inline;
+    padding:0.5em;
+    margin:0 1em 0em 1em;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:5px;
+    background:rgba(68,191, 255, 1);
+    list-style-type:none;
+    color:white;
+
+}
+#menuLangue{
+    display:inline;
+    padding:0em;
+    margin:0 1em 0em 1em;
+    float:right;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:5px;
+    font-size:12px;
+    list-style-type:none;
+    color:white;}
+
+/*Enlève la couleur la couleur par défaut des liens*/
+#menu a:link, #menu a:visited, article a{
+    text-decoration:none;
+    color:white;    
+}
+
+nav{
+    width:100%;
+    margin:0;
+    height:70px;
+    background-color: rgba(60,191, 255, 0.3);
+    position:fixed;
+    z-index:1;
+    padding-top:0.5em;
+    text-align:center;
+    font-size:18px;
+}
+#menu{
+    width:100%;
+    height:50px;
+    margin:1em 0 0 0 ;
+    padding:0;
+}
+
+.part1de3{
+    margin:0;
+    padding:1em 0 1em 0;
+    height:400px;
+    width:100%;
+    background-color:transparent /*#598D77*/;
+    position: relative;
+    font-size:18px;
+}
+.part3de3{
+    margin:0;
+    padding:1em 0 1em 0em;
+    height:400px;
+    width:100%;
+    background-color:transparent /*#598D77*/;
+    position: relative;
+     z-index:-1;
+}
+
+.part5de5{
+    height:300px;
+    background-color: rgba(60,191, 255, 0.3)
+} 
+
+.part2de3{
+    margin-top:0;
+    height:600px;
+    width:100%;
+    background-color: rgba(60,191, 255, 0.3);
+    position:relative;
+     z-index:1;
+}
+ .part4de4{
+ 
+    margin:0;
+    padding:1em 0 1em 0em;
+    height:400px;
+    width:50%;
+    background-color:transparent /*#598D77*/;
+    position: relative;
+ }
+ 
+ .part1de3,.part3de3{
+     background-color: rgba(68,108, 127, 1);
+ }
+
+.part1de3 p{
+    float:left;
+    width:500px;
+    height:100px;
+    padding:25px 0px 0px 50px;
+    margin:35px 100px 25px 0;
+}
+.col1de3,.col2de3,.col3de3{
+    display:block;
+    vertical-align:middle;
+    float:left;
+    width:25%;
+    height:125px;
+    text-align:center;
+    background-color: rgba(68, 108, 127, 0.8);
+    border-radius:75px;
+}
+
+.col1de3 p:hover,.col2de3 p:hover,.col3de3 p:hover{
+    background-color:#446C7F;
+    border:solid white 1px;
+    overflow:scroll;
+    height:300px;
+}
+
+.col1de3{
+    margin:0 25px 25px 100px;
+}
+
+.col2de3{
+    margin:0 25px 25px 25px;
+}
+.col3de3{
+     margin:0 100px 25px 25px;
+}
+
+.col1de3 p,.col2de3 p,.col3de3 p{
+    margin:0 1em 1em 1em;
+    padding:1em 1em 1em 1em;
+    display:block;
+    text-align:left;
+    overflow:hidden;
+    height:25px;
+    border-top:solid white 1px;
+}
+
+article h5, article h3{
+    margin:1em 0 0 0;
+}
+
+article li{
+    list-style-type:box;
+    margin-bottom:1em;   
+}
+
+.col1sur4{
+    margin:0 25px 25px 100px;
+}
+.col2sur4{
+    argin:0 25px 25px 25px;
+}
+
+.col3sur4{
+    margin:0 100px 25px 25px;
+}
+
+.col1sur4,.col2sur4,.col3sur4{
+    display:block;
+    vertical-align:middle;
+    float:left;
+    width:26%;
+    height:80px;
+    text-align:center;
+    border-radius:75px;
+    background-color: rgba(68,108, 127, 0.6);
+}
+    
+/*.col4sur4{
+    display:block;
+    vertical-align:middle;
+    float:left;
+    width:30%;
+    height:80px;
+    text-align:center;
+    border: solid; 
+    border-radius:0px 0px 50px 50px;
+}*/
+
+.col1sur4 p,.col2sur4 p,.col3sur4 ul{
+    margin:0 1em 1em 1em;
+    padding:1em;
+    display:block;
+    text-align:left;
+    overflow:hidden;
+    height:0px;
+}
+
+.col1sur4 p:hover,.col2sur4 p:hover,.col3sur4 ul:hover{
+    border:solid white 1px;
+    overflow:scroll;
+    height:100px;
+    color:white;
+    background-color:rgba(68,108, 127, 1);
+    border-style:solid;
+}
+article:hover{
+background-color:rgba(68,108, 127, 0.8);
+}
+
+.gros{
+    font-size:45px;
+    margin:0 0 1em 0;
+    padding:0 1em 0 1em ;
+}
+.vide{
+     margin-top:0;
+    height:50px;
+    width:100%;
+    background-color: rgba(60,191, 255, 0.3);
+    position:relative;
+     z-index:0;
+}
+hr{
+    margin:0 0 2em 0;
+    
+    
+}
+
+.col3sur4 li{
+    list-style-type:none;
+}
+body{
+    color:white;
+    width:100%;
+    margin:0;
+    background-repeat:no-repeat;
+    background-position:top;
+    font-size:16px;
+    font-family:cantarell,sans serif;
+}
+
+.entete{
+    width:100%;
+    height:5em;
+   /* background-image:url("courrier.jpg");*/
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-color:transparent/*#384D44*/;
+    border:none;
+    position:relative;
+ h3}  
+
+nav h1 { 
+   position: absolute; 
+   top:-45px;
+   left:-500px;
+   width: 100%; 
+   color:white;
+   font-size:50px;
+   font-family:cantarell,sans serif;
+   background-width:8px;
+}
+ 
+footer{
+    height:100px;
+    width:auto;
+    clear:both;
+    margin:0;
+    padding:10px;
+    background-color:rgba(68, 108, 127, 1);
+    text-align:center;
+    color:white;
+    font-size:11px;
+    position:relative;
+}
+    
+
+@media (max-width:768px){
+nav,section,body{
+    width:100%;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+
+.col1de3,.col2de3,.col3de3{
+    display:block;
+    vertical-align:middle;
+    width:100%;
+    height:125px;
+    text-align:center;
+    margin:0 0 1em 0;
+}
+
+
+.vide{
+    height:0;
+}
+
+.principal{
+    position:fixed;
+    z-index:-2;
+    width:0%;
+}
+
+nav{
+    width:100%;
+    margin:0;
+    height:0px;
+    background-color: rgba(68, 108, 127, 0.6);
+    position:fixed;
+    z-index:1;
+    padding-top:0em;
+    text-align:center;
+    font-size:0px;
+}
+
+nav h1 { 
+   position: relative;
+   width: 100%; 
+   color:rgba(68, 108, 127, 1);
+   font-size:15px;
+   font-family:cantarell,sans serif;
+}
+
+    
+}
