@@ -156,12 +156,12 @@ nav{
     border-radius:75px;
 }
 
-.col1de3 p:hover,.col2de3 p:hover,.col3de3 p:hover{
+/*.col1de3 p:hover,.col2de3 p:hover,.col3de3 p:hover{
     background-color:#446C7F;
     border:solid white 1px;
     overflow:scroll;
     height:300px;
-}
+}*/
 
 .col1de3{
     margin:0 25px 25px 100px;
@@ -179,7 +179,7 @@ nav{
     padding:1em 1em 1em 1em;
     display:block;
     text-align:left;
-    overflow:hidden;
+    /*overflow:hidden;*/
     height:25px;
     border-top:solid white 1px;
 }
