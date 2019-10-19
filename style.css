@@ -69,7 +69,7 @@ p{
 }
 
 /*Enlève la couleur la couleur par défaut des liens*/
-#menu a:link, #menu a:visited, article a{
+a:link, a:visited, a{
     text-decoration:none;
     color:white;    
 }
@@ -101,20 +101,7 @@ nav{
     position: relative;
     font-size:18px;
 }
-.part3de3{
-    margin:0;
-    padding:1em 0 1em 0em;
-    height:400px;
-    width:100%;
-    background-color:transparent /*#598D77*/;
-    position: relative;
-     z-index:-1;
-}
 
-.part5de5{
-    height:300px;
-    background-color: rgba(60,191, 255, 0.3)
-} 
 
 .part2de3{
     margin-top:0;
@@ -124,17 +111,8 @@ nav{
     position:relative;
      z-index:1;
 }
- .part4de4{
  
-    margin:0;
-    padding:1em 0 1em 0em;
-    height:400px;
-    width:50%;
-    background-color:transparent /*#598D77*/;
-    position: relative;
- }
- 
- .part1de3,.part3de3{
+ .part1de3{
      background-color: rgba(68,108, 127, 1);
  }
 
@@ -186,48 +164,9 @@ article li{
     margin-bottom:1em;   
 }
 
-.col1sur4{
-    margin:0 25px 25px 100px;
-}
-.col2sur4{
-    margin:0 25px 25px 25px;
-}
 
-.col3sur4{
-    margin:0 100px 25px 25px;
-}
-
-.col1sur4,.col2sur4,.col3sur4{
-    /*display:block;*/
-    vertical-align:middle;
-    float:left;
-    width:26%;
-    height:80px;
-    text-align:center;
-    border-radius:75px;
-    background-color: rgba(68,108, 127, 0.6);
-}
-    
-
-.col1sur4 p,.col2sur4 p,.col3sur4 ul{
-    margin:0 1em 1em 1em;
-    padding:1em;
-    display:block;
-    text-align:left;
-    overflow:hidden;
-    height:0px;
-}
-
-.col1sur4 p:hover,.col2sur4 p:hover,.col3sur4 ul:hover{
-    border:solid white 1px;
-    overflow:scroll;
-    height:100px;
-    color:white;
-    background-color:rgba(68,108, 127, 1);
-    border-style:solid;
-}
 article:hover{
-background-color:rgba(68,108, 127, 0.8);
+background-color:rgba(68,108, 127, 1);
 }
 
 .gros{
@@ -249,9 +188,6 @@ hr{
     
 }
 
-.col3sur4 li{
-    list-style-type:none;
-}
 body{
     color:white;
     width:100%;
