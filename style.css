@@ -56,7 +56,7 @@ p{
 
 }
 #menuLangue{
-    display:inline;
+    /*display:inline;*/
     padding:0em;
     margin:0 1em 0em 1em;
     float:right;
@@ -287,7 +287,9 @@ body{
     background-color:transparent/*#384D44*/;
     border:none;
     position:relative;
- h3}  
+ h3
+}
+
 
 nav h1 { 
    position: absolute; 
