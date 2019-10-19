@@ -174,15 +174,14 @@ nav{
      margin:0 100px 25px 25px;
 }
 
-/*.col1de3 p,.col2de3 p,.col3de3 p{
+.col1de3 p,.col2de3 p,.col3de3 p{
     margin:0 1em 1em 1em;
     padding:1em 1em 1em 1em;
     display:block;
-    text-align:left;
-    /*overflow:hidden;
+    text-align:center;
     height:25px;
     border-top:solid white 1px;
-}*/
+}
 
 article h5, article h3{
     margin:1em 0 0 0;
